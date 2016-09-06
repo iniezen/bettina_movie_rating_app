@@ -2,8 +2,48 @@
 <head>
 	<title>Bettina Movie App</title>
 	<style type="text/css">
+		body{
+		width:100%;
+		font-size: 40px;
+		}
+
+		.container{
+
+			width:100%;
+
+		}
+
+		h1,h3{
+
+			width:100%;
+		}
+
 		button, div, form, input {
 			margin: 10px;
+			width: 90%;
+			display: block;
+		}
+
+		button{
+
+		    width: 35%;
+		    height: 70px;
+		    font-size: 50px;
+		    display: block;
+
+		}
+
+		label{
+
+			display:block;
+		}
+
+		#addmovie, input{
+
+		    line-height: 45px;
+		    font-size: 40px;
+
+
 		}
 	</style>
 </head>
@@ -11,17 +51,17 @@
 
 <div class="container">
   <h1>Bettina's Movie App</h1>
-  <h4>So She Can Do Her Job</h4>
+  <h3>So She Can Do Her Job</h3>
 
   <!-- Rendered Buttons will get Dumped Here  -->
   <div id="buttonsView"></div>
 
   <form id="movie-form">
-    <label for="movie-input">Add a Movie Babe</label>
+    <label for="movie-input">Add a Movie Here Babe:</label>
     <input type="text" id="movie-input"><br>
     
     <!-- Button triggers new movie to be added -->
-    <input id="addMovie" type="submit" value="Add a Movie Babe">
+    <input id="addMovie" type="submit" value="Click Here To Add Movie">
   </form>
 
 
